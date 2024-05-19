@@ -20,6 +20,11 @@ body {
 
 section {
   min-height: 100dvh;
+  background: linear-gradient(
+    135deg,
+    hsla(0, 0%, 100%, 1) 0%,
+    hsla(0, 100%, 98%, 1) 100%
+  );
 }
 
 .wrapper {
@@ -191,7 +196,7 @@ h1 > span {
   }
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 600px) {
   section {
     height: 100%;
   }
